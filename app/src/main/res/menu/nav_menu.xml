@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+      <item
+          android:id="@+id/nav_home"
+          android:icon="@drawable/nav_home"
+          android:title="Home"
+          />
+
+      <item android:title="Receiving">
+         <menu>
+            <item
+                android:id="@+id/nav_transporter_dnote"
+                android:icon="@drawable/nav_transporter_dnote"
+                android:title="Transporter Delivery"
+                />
+            <item
+                android:id="@+id/nav_grower_dnote"
+                android:icon="@drawable/nav_grower_dnote"
+                android:title="Grower Delivery"
+                />
+            <item
+                android:id="@+id/nav_holding"
+                android:icon="@drawable/nav_holding"
+                android:title="Holding Area"
+                />
+         </menu>
+      </item>
+      <item android:title="Floor">
+         <menu>
+            <item
+                android:id="@+id/nav_summary"
+                android:icon="@drawable/nav_summary"
+                android:title="Floor Summary"
+                />
+            <item
+                android:id="@+id/nav_balecheck"
+                android:icon="@drawable/nav_balecheck"
+                android:title="Bale Check"
+                />
+            <item
+                android:id="@+id/nav_movebales"
+                android:icon="@drawable/nav_movebales"
+                android:title="Move Bales"
+                />
+            <item
+                android:id="@+id/nav_baleadjust"
+                android:icon="@drawable/nav_baleadjust"
+                android:title="Bale Adjustments"
+                />
+         </menu>
+      </item>
+      <item android:title="Sales Processing">
+          <menu>
+               <item
+                   android:id="@+id/nav_capturing"
+                   android:icon="@drawable/nav_capturing"
+                   android:title="Ticket Capturing"
+                   />
+               <item
+                   android:id="@+id/nav_balancing"
+                   android:icon="@drawable/nav_balancing"
+                   android:title="Sale Balancing"
+                   />
+            </menu>
+      </item>
+   <item android:title="Dispatch">
+      <menu>
+         <item
+             android:id="@+id/nav_dispatch"
+             android:icon="@drawable/nav_dispatch"
+             android:title="Dispatch"
+             />
+         <item
+             android:id="@+id/nav_rehandling"
+             android:icon="@drawable/nav_rehandling"
+             android:title="Rehandling"
+             />
+      </menu>
+   </item>
+
+   <item android:title="">
+      <menu>
+         <item
+             android:id="@+id/nav_logout"
+             android:icon="@drawable/nav_logout"
+             android:title="Logout"
+             />
+      </menu>
+   </item>
+</menu>

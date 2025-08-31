@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SummaryFragment"
+    android:background="@drawable/geminibac"
+    android:scaleType = "centerCrop">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/floor_row"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="408dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Enter Row"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/bale_barcode"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="466dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="@string/scan_barcode"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/bale_location"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="533dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Select Location"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/sellingPoint"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="597dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Select Selling Point"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonScanBale"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="328dp"
+        android:backgroundTint="@color/purple_300"
+        android:drawableLeft="@drawable/barcode_scanner"
+        android:gravity="center"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <Button
+        android:id="@+id/buttonFloorSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="327dp"
+        android:backgroundTint="@color/purple_300"
+        android:text="Submit"
+        android:textColor="@color/white" />
+</RelativeLayout>

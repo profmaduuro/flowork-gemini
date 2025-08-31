@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovebalesFragment"
+    android:background="@drawable/geminibac">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/buttonBaleCheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="421dp"
+        android:backgroundTint="@color/purple_300"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/selectLocation"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="487dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Select Location" />
+
+    <EditText
+        android:id="@+id/scanMoveBale"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="615dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Enter Barcode" />
+
+    <Button
+        android:id="@+id/buttonScanMoveBale"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="543dp"
+        android:backgroundTint="@color/purple_300"
+        android:drawableLeft="@drawable/barcode_scanner"
+        android:gravity="center"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+</RelativeLayout>

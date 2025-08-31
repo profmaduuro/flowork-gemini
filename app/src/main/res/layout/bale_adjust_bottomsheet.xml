@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonSubmitAdjust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="471dp"
+        android:backgroundTint="@color/purple_300"
+        android:text="Submit Adjustment"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/bale_lot_adjust"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="555dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Lot" />
+
+    <EditText
+        android:id="@+id/bale_group_adjust"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="554dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Group" />
+
+    <EditText
+        android:id="@+id/bale_mass_adjust"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="617dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Mass" />
+
+    <EditText
+        android:id="@+id/bale_barcode_adjust"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="617dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Bale barcode" />
+</RelativeLayout>

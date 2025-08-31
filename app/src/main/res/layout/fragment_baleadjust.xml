@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaleadjustFragment"
+    android:background="@drawable/geminibac">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/buttonShowAdjust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="548dp"
+        android:backgroundTint="@color/purple_300"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonScanMoveBale2"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="548dp"
+        android:backgroundTint="@color/purple_300"
+        android:drawableLeft="@drawable/barcode_scanner"
+        android:gravity="center"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/adjust_barcode"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="615dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Enter Barcode" />
+</RelativeLayout>

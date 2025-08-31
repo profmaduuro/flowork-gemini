@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransporterDnoteFragment"
+    android:background="@drawable/geminibac">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/transporter_name"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/transporter_id"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="18dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Transporter Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#546E7A"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/transporter_id"
+        android:layout_width="353dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/truck_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="32dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Id"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#546E7A"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/truck_number"
+        android:layout_width="353dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/delivery_location"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Truck Id"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#546E7A"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <EditText
+        android:id="@+id/delivery_location"
+        android:layout_width="353dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/transporter_contact"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="38dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Delivery Location"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#546E7A"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <EditText
+        android:id="@+id/transporter_contact"
+        android:layout_width="353dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Phone Number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColorHint="#546E7A"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="226dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="154dp"
+        android:backgroundTint="@color/purple_300"
+        android:text="Create Delivery"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonInsertGrowers"-->
+<!--        android:layout_width="226dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="95dp"-->
+<!--        android:layout_marginBottom="84dp"-->
+<!--        android:backgroundTint="@color/purple_300"-->
+<!--        android:text="Enter Grower"-->
+<!--        android:textColor="@color/white"-->
+<!--        tools:layout_editor_absoluteX="92dp"-->
+<!--        tools:layout_editor_absoluteY="433dp" />-->
+
+    <EditText
+        android:id="@+id/sale_date"
+        android:layout_width="181dp"
+        android:layout_height="44dp"
+        android:layout_above="@+id/transporter_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Select Date"
+        android:inputType="date" />
+
+</RelativeLayout>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/geminibac"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="178dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="313dp"
+        android:background="@drawable/rounded_login_ui"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp">
+
+        <RelativeLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="124dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="21dp"
+                android:text="490"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="46dp"
+                android:text="10"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="58dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/insert_growers"
+                android:tint="@color/lavender" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="122dp"
+                android:layout_marginBottom="95dp"
+                android:text="Date:" />
+
+            <TextView
+                android:id="@+id/sale_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="94dp"
+                android:text="15-05-2025"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="42dp"
+                android:layout_marginBottom="67dp"
+                android:text="Bales Laid:" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="44dp"
+                android:layout_marginBottom="44dp"
+                android:text="Bales Rejected:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="58dp"
+                android:layout_marginBottom="21dp"
+                android:text="Bales Sold:" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="117dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="69dp"
+                android:text="500"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="178dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="312dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp">
+
+        <RelativeLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="50dp"
+                android:text="490"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="66dp"
+                android:layout_marginBottom="47dp"
+                android:text="Value:" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="101dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="68dp"
+                android:text="490"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="87dp"
+                android:text="1000000"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="59dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/money"
+                android:tint="@color/lavender" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="89dp"
+                android:text="Total Mass:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="68dp"
+                android:layout_marginBottom="68dp"
+                android:text="Bales Sold:" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="178dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="508dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp">
+
+        <RelativeLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="50dp"
+                android:text="490"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="66dp"
+                android:layout_marginBottom="47dp"
+                android:text="Sold:" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="101dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="68dp"
+                android:text="490"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="87dp"
+                android:text="1000"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="59dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/grower"
+                android:tint="@color/lavender" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="89dp"
+                android:text="Contracted:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="68dp"
+                android:layout_marginBottom="68dp"
+                android:text="Booked:" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="178dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="507dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp">
+
+        <RelativeLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="50dp"
+                android:text="20"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="66dp"
+                android:layout_marginBottom="47dp"
+                android:text="Processed:" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="101dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="68dp"
+                android:text="20"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="87dp"
+                android:text="20"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="59dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/delivery"
+                android:tint="@color/lavender" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="89dp"
+                android:text="Created:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="68dp"
+                android:layout_marginBottom="68dp"
+                android:text="Closed:" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
