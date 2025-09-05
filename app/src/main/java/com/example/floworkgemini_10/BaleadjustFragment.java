@@ -40,7 +40,7 @@ public class BaleadjustFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 bottomSheetDialog = new BottomSheetDialog(getContext());
-                bottomSheetDialog.setContentView(R.layout.bale_adjust_bottomsheet);
+                bottomSheetDialog.setContentView(R.layout.bottom_sheet_dialog_layout);
                 bottomSheetDialog.setCancelable(true);
                 bottomSheetDialog.setCanceledOnTouchOutside(true);
                 bottomSheetDialog.show();

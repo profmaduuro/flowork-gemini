@@ -111,6 +111,78 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportFragmentManager().beginTransaction().replace(
                     R.id.fragment_container, new MovebalesFragment()
             ).commit();
+        }else if(item.getItemId() == R.id.nav_buyer) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new BuyerFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_selling_point) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new SellingPointFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_grades) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new GradesFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_connections) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new ConnectionsFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_tickets) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new TicketsFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_batching) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new BatchingFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_backup) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new BackupFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_parameters) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new ParametersFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_processing) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new ProcessingFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_verification) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new VerificationFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_internals) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new InternalsFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_purchases) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new PurchasesFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_banking) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new BankingFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_captureinternals) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new CaptureInternalsFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_revenues) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new RevenuesFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_schedules) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new SchedulesFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_invoices) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new InvoicesFragment()
+            ).commit();
+        }else if(item.getItemId() == R.id.nav_timb) {
+            getSupportFragmentManager().beginTransaction().replace(
+                    R.id.fragment_container, new TimbFragment()
+            ).commit();
         }else if (item.getItemId() == R.id.nav_logout){
                 Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
         }

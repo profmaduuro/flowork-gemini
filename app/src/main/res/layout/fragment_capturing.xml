@@ -1,18 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CapturingFragment">
+    tools:context=".CapturingFragment"
+    android:background="@drawable/geminibac">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/buttonShowDialog"
+        android:layout_width="197dp"
         android:layout_height="wrap_content"
-        android:text="Ticket Capturing"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"
-        />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="501dp"
+        android:backgroundTint="@color/purple_300"
+        android:text="Proceed to Capture"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonScanCapture"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="502dp"
+        android:backgroundTint="@color/purple_300"
+        android:drawableLeft="@drawable/barcode_scanner"
+        android:gravity="center"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/bale_barcode_capture"
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="611dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Scan Barcode" />
+
+    <TextView
+        android:id="@+id/textCapturing"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Capturing"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
 
 </RelativeLayout>

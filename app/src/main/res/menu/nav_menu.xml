@@ -25,6 +25,16 @@
                 android:icon="@drawable/nav_holding"
                 android:title="Holding Area"
                 />
+             <item
+                 android:id="@+id/nav_tickets"
+                 android:icon="@drawable/nav_tickets"
+                 android:title="Ticket Printing"
+                 />
+             <item
+                 android:id="@+id/nav_batching"
+                 android:icon="@drawable/nav_batching"
+                 android:title="Batching"
+                 />
          </menu>
       </item>
       <item android:title="Floor">
@@ -79,6 +89,108 @@
              />
       </menu>
    </item>
+
+    <item android:title="Stoporders">
+        <menu>
+            <item
+                android:id="@+id/nav_processing"
+                android:icon="@drawable/nav_processing"
+                android:title="Processing"
+                />
+            <item
+                android:id="@+id/nav_verification"
+                android:icon="@drawable/nav_verification"
+                android:title="Verification"
+                />
+            <item
+                android:id="@+id/nav_internals"
+                android:icon="@drawable/nav_internals"
+                android:title="Create Internals"
+                />
+        </menu>
+    </item>
+    <item android:title="Accounts">
+        <menu>
+            <item
+                android:id="@+id/nav_purchases"
+                android:icon="@drawable/nav_purchases"
+                android:title="Purchase Summary"
+                />
+            <item
+                android:id="@+id/nav_captureinternals"
+                android:icon="@drawable/nav_captureinternals"
+                android:title="Capture Internals"
+                />
+            <item
+                android:id="@+id/nav_banking"
+                android:icon="@drawable/nav_banking"
+                android:title="Banking"
+                />
+        </menu>
+    </item>
+    <item android:title="Reports">
+        <menu>
+            <item
+                android:id="@+id/nav_revenues"
+                android:icon="@drawable/nav_revenues"
+                android:title="Revenues"
+                />
+            <item
+                android:id="@+id/nav_schedules"
+                android:icon="@drawable/nav_schedules"
+                android:title="Creditor Schedules"
+                />
+            <item
+                android:id="@+id/nav_invoices"
+                android:icon="@drawable/nav_invoices"
+                android:title="Invoices"
+                />
+            <item
+                android:id="@+id/nav_timb"
+                android:icon="@drawable/nav_timb"
+                android:title="TIMB Reports"
+                />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_buyer"
+                android:icon="@drawable/nav_buyer"
+                android:title="Buyer"
+                />
+            <item
+                android:id="@+id/nav_selling_point"
+                android:icon="@drawable/nav_selling_point"
+                android:title="Selling Point"
+                />
+            <item
+                android:id="@+id/nav_grades"
+                android:icon="@drawable/nav_grades"
+                android:title="Grades"
+                />
+            <item
+                android:id="@+id/nav_connections"
+                android:icon="@drawable/nav_connections"
+                android:title="Connections"
+                />
+            <item
+                android:id="@+id/nav_manage_users"
+                android:icon="@drawable/nav_manage_users"
+                android:title="Manage Users"
+                />
+            <item
+                android:id="@+id/nav_parameters"
+                android:icon="@drawable/nav_parameters"
+                android:title="Statutory Parameters"
+                />
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/nav_backup"
+                android:title="Backup"
+                />
+        </menu>
+    </item>
 
    <item android:title="">
       <menu>

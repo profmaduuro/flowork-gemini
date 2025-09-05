@@ -13,9 +13,12 @@ import android.widget.Button;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
-
-public class BalancingFragment extends Fragment {
-
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link TicketsFragment#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class TicketsFragment extends Fragment {
 
     BottomSheetDialog bottomSheetDialog;
 
@@ -23,24 +26,21 @@ public class BalancingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_balancing, container, false);
-
-
-
+        return inflater.inflate(R.layout.fragment_tickets, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Button buttonShowDialog = view.findViewById(R.id.buttonShowDialog);
+        Button buttonShowTickets = view.findViewById(R.id.buttonShowTickets);
 
 
-        buttonShowDialog.setOnClickListener(new View.OnClickListener() {
+        buttonShowTickets.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 bottomSheetDialog = new BottomSheetDialog(getContext());
-                bottomSheetDialog.setContentView(R.layout.bale_adjust_bottomsheet);
+                bottomSheetDialog.setContentView(R.layout.tickets_bottomsheet);
                 bottomSheetDialog.setCancelable(true);
                 bottomSheetDialog.setCanceledOnTouchOutside(true);
                 bottomSheetDialog.show();
